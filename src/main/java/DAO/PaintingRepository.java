@@ -1,4 +1,7 @@
-import java.util.ArrayList;
+package DAO;
+
+import Model.Painting;
+
 import java.util.List;
 
 /*
@@ -9,7 +12,7 @@ public class PaintingRepository {
 
     public PaintingRepository(){
     }
-    public void addPainting(String title, int year, String artist){
+    public void addPainting(Painting painting){
     }
     public List<Painting> getPaintings(){
         return null;

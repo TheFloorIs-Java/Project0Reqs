@@ -1,5 +1,5 @@
-import java.util.ArrayList;
-import java.util.List;
+import Service.PaintingService;
+
 import java.util.Scanner;
 
 public class Museum {
@@ -30,6 +30,5 @@ public class Museum {
                 System.out.println(paintingService.getPaintings());
             }
         }
-        Service.verifyDBConnection();
     }
 }

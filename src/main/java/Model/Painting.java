@@ -1,3 +1,5 @@
+package Model;
+
 public class Painting {
     String title;
     int year;
